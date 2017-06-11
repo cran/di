@@ -1,0 +1,12 @@
+0ead1ec331178da8172121cafafc0588 *DESCRIPTION
+32a546997c1dbb82a24027486b77fe07 *NAMESPACE
+774717c301266a3ceb1528c939a6b1b0 *R/di.R
+235660371de4bce0b32760deae695b90 *R/general.R
+70c4359ef9be8d64a59f45da04a32770 *README.md
+192b94c0055000a81c4b0b07a32e2507 *build/vignette.rds
+de1a6e4bbec98524f59ec953272ce1e6 *inst/NEWS
+e48e92bfc4641964efb697587da71cc4 *inst/doc/di-vignette.R
+06435cee2ba30a866837dd48dc75cd26 *inst/doc/di-vignette.Rmd
+74c2339144feb1dfd1ad14294870bc13 *inst/doc/di-vignette.html
+3f965bddbc3181d449ff57e7e9bd35f1 *man/di-di.Rd
+06435cee2ba30a866837dd48dc75cd26 *vignettes/di-vignette.Rmd
