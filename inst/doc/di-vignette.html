@@ -118,7 +118,7 @@ $(document).ready(function () {
 
 <h1 class="title toc-ignore">Using di, an R package to calculate deficit (frailty) index (DI)</h1>
 <h4 class="author"><em>Ilya Y. Zhbannikov</em></h4>
-<h4 class="date"><em>Sun Jun 11 16:31:47 2017</em></h4>
+<h4 class="date"><em>Tue Sep 5 20:25:07 2017</em></h4>
 
 </div>
 
@@ -148,6 +148,16 @@ ddi &lt;- di(dd, c(&quot;var1&quot;, &quot;var2&quot;, &quot;var3&quot;))</code>
 <h3>Rescaling</h3>
 <p>By default, values are rescaled to the interval [0,1]. If you do not want this, you can set the <code>rescale</code> flag to <code>FALSE</code>:</p>
 <pre class="r"><code>ddi &lt;- di(dd, c(&quot;var1&quot;, &quot;var2&quot;, &quot;var3&quot;), rescale = FALSE)</code></pre>
+<div id="custom-rescaling" class="section level4">
+<h4>Custom rescaling</h4>
+<p>Sometimes it needs to apply a custom scaling. For example if values 0 and 1 incorrectly represent the reality, the user can apply his own scale: 0 –&gt; 0.2 and 1 –&gt; 0.8. To do this, he needs to use a special grammar: <column_name:new_value_1:new_value2:new_value3:...>. Example below shows this situation:</p>
+<pre class="r"><code>ddi &lt;- di(dd, c(&quot;var1&quot;, &quot;var2&quot;, &quot;var3&quot;), rescale.custom = c(&quot;var1:0.2:0.8&quot;, &quot;var3:0.3:0.7&quot;))</code></pre>
+</div>
+<div id="avoiding-rescaling-for-some-columns" class="section level4">
+<h4>Avoiding rescaling for some columns</h4>
+<p>Please use <code>rescale.avoid</code> parameter:</p>
+<pre class="r"><code>ddi &lt;- di(dd, c(&quot;var1&quot;, &quot;var2&quot;, &quot;var3&quot;), rescale.avoid = c(&quot;var2&quot;))</code></pre>
+</div>
 </div>
 <div id="inverting" class="section level3">
 <h3>Inverting</h3>

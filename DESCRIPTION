@@ -1,8 +1,8 @@
 Package: di
 Type: Package
 Title: Deficit Index (DI)
-Version: 1.0.0
-Date: 2017-06-11
+Version: 1.1.1
+Date: 2017-09-05
 Authors@R: c(person(c("Ilya", "Y."), "Zhbannikov", email = "ilya.zhbannikov@duke.edu", role = c("aut", "cre")),
              person(c("Konstantin", "G"), "Arbeev", role = c("ctb"), comment = "Konstantin supervised the technical/software development."),
              person(c("Anatoliy","I"), "Yashin", role = c("ctb"), comment = "Anatoliy supervised the technical/software development and is a Principal Invesigator of this project"))
@@ -25,11 +25,11 @@ Depends: R (>= 3.3.2)
 Encoding: UTF-8
 License: GPL-3
 NeedsCompilation: no
-Packaged: 2017-06-11 20:31:48 UTC; ilya
+Packaged: 2017-09-06 00:25:09 UTC; ilya
 Author: Ilya Y. Zhbannikov [aut, cre],
   Konstantin G Arbeev [ctb] (Konstantin supervised the technical/software
     development.),
   Anatoliy I Yashin [ctb] (Anatoliy supervised the technical/software
     development and is a Principal Invesigator of this project)
 Repository: CRAN
-Date/Publication: 2017-06-11 23:00:18 UTC
+Date/Publication: 2017-09-06 03:05:10 UTC
