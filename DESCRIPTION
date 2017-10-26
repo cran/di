@@ -1,11 +1,9 @@
 Package: di
 Type: Package
 Title: Deficit Index (DI)
-Version: 1.1.1
-Date: 2017-09-05
-Authors@R: c(person(c("Ilya", "Y."), "Zhbannikov", email = "ilya.zhbannikov@duke.edu", role = c("aut", "cre")),
-             person(c("Konstantin", "G"), "Arbeev", role = c("ctb"), comment = "Konstantin supervised the technical/software development."),
-             person(c("Anatoliy","I"), "Yashin", role = c("ctb"), comment = "Anatoliy supervised the technical/software development and is a Principal Invesigator of this project"))
+Version: 1.1.3
+Date: 2017-10-26
+Authors@R: c(person(c("Ilya", "Y."), "Zhbannikov", email = "ilya.zhbannikov@duke.edu", role = c("aut", "cre")))
 Maintainer: Ilya Y. Zhbannikov <ilya.zhbannikov@duke.edu>
 Description: A set of utilities for calculating the Deficit (frailty) Index (DI) in gerontological studies. 
              The deficit index was first proposed by Arnold Mitnitski and Kenneth Rockwood 
@@ -25,11 +23,7 @@ Depends: R (>= 3.3.2)
 Encoding: UTF-8
 License: GPL-3
 NeedsCompilation: no
-Packaged: 2017-09-06 00:25:09 UTC; ilya
-Author: Ilya Y. Zhbannikov [aut, cre],
-  Konstantin G Arbeev [ctb] (Konstantin supervised the technical/software
-    development.),
-  Anatoliy I Yashin [ctb] (Anatoliy supervised the technical/software
-    development and is a Principal Invesigator of this project)
+Packaged: 2017-10-26 17:05:08 UTC; ilya
+Author: Ilya Y. Zhbannikov [aut, cre]
 Repository: CRAN
-Date/Publication: 2017-09-06 03:05:10 UTC
+Date/Publication: 2017-10-26 17:15:34 UTC
