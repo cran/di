@@ -1,8 +1,8 @@
 Package: di
 Type: Package
 Title: Deficit Index (DI)
-Version: 1.1.3
-Date: 2017-10-26
+Version: 1.1.4
+Date: 2018-04-11
 Authors@R: c(person(c("Ilya", "Y."), "Zhbannikov", email = "ilya.zhbannikov@duke.edu", role = c("aut", "cre")))
 Maintainer: Ilya Y. Zhbannikov <ilya.zhbannikov@duke.edu>
 Description: A set of utilities for calculating the Deficit (frailty) Index (DI) in gerontological studies. 
@@ -19,11 +19,11 @@ RoxygenNote: 6.0.1
 Suggests: knitr, rmarkdown
 VignetteBuilder: knitr
 Imports: scales
-Depends: R (>= 3.3.2)
+Depends: R (>= 3.3)
 Encoding: UTF-8
 License: GPL-3
 NeedsCompilation: no
-Packaged: 2017-10-26 17:05:08 UTC; ilya
+Packaged: 2018-04-11 05:16:39 UTC; ilya
 Author: Ilya Y. Zhbannikov [aut, cre]
 Repository: CRAN
-Date/Publication: 2017-10-26 17:15:34 UTC
+Date/Publication: 2018-04-11 05:24:20 UTC
